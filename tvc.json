@@ -2,31 +2,90 @@
   "wallpaper": "https://tool.teyonds.com/api",
   "lives": [
     {
-      "name": "live",
-      "url": "https://ghfast.top/raw.githubusercontent.com/yoursmile66/TVBox/main/live.txt",
+      "name": "国产区",
+      "url": "https://ghfast.top/raw.githubusercontent.com/rib88/mao/main/18/gtv.txt",
       "type": 0,
-      "playerType": 1,
-      "ua": "okhttp/3.12.13",
+      "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
-    }
+    },
+	{
+		"name": "国产特区",
+		"type": 0,
+		"url": "https://ghfast.top/raw.githubusercontent.com/rib88/mao/main/18/gc.txt",
+		"ua": "okhttp/3.15",
+		"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+		"logo": "https://epg.112114.xyz/logo/{name}.png"
+	},
+	{
+		"name": "探花网红",
+		"type": 0,
+		"url": "https://ghfast.top/raw.githubusercontent.com/rib88/mao/main/18/gz.txt",
+		"ua": "okhttp/3.15",
+		"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+		"logo": "https://epg.112114.xyz/logo/{name}.png"
+	},
+	{
+		"name": "欧美专区",
+		"type": 0,
+		"url": "https://ghfast.top/raw.githubusercontent.com/rib88/mao/main/18/om.txt",
+		"ua": "okhttp/3.15",
+		"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+		"logo": "https://epg.112114.xyz/logo/{name}.png"
+	},
+	{
+		"name": "日本无码",
+		"type": 0,
+		"url": "https://ghfast.top/raw.githubusercontent.com/rib88/mao/main/18/wm.txt",
+		"ua": "okhttp/3.15",
+		"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+		"logo": "https://epg.112114.xyz/logo/{name}.png"
+	},
+	{
+		"name": "日本有码",
+		"type": 0,
+		"url": "https://ghfast.top/raw.githubusercontent.com/rib88/mao/main/18/ym.txt",
+		"ua": "okhttp/3.15",
+		"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+		"logo": "https://epg.112114.xyz/logo/{name}.png"
+	}
   ],
   "sites": [
     {
-        "key": "火狐",
-        "name": "📛挺好69",
-        "type": 1,
-        "api": "https://hhzyapi.com/api.php/provide/vod/",
-        "searchable": 1,
-        "quickSearch": 0,
-        "filterable": 1,
-        "categories": ["内地剧","动作片","科幻片","战争片",
-                        "喜剧片","爱情片","恐怖片","犯罪片",
-                        "剧情片","冒险片","记录片","韩剧",
-                        "香港剧","台湾剧","欧美剧","日剧",
-                        "马泰剧","体育赛事","综艺","动画片",
-                        "中国动漫","日本动漫","欧美动漫","伦理片"]
-     },
+      "key": "火狐",
+      "name": "📛挺好69",
+      "type": 1,
+      "api": "https://hhzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "categories": [
+        "内地剧",
+        "动作片",
+        "科幻片",
+        "战争片",
+        "喜剧片",
+        "爱情片",
+        "恐怖片",
+        "犯罪片",
+        "剧情片",
+        "冒险片",
+        "记录片",
+        "韩剧",
+        "香港剧",
+        "台湾剧",
+        "欧美剧",
+        "日剧",
+        "马泰剧",
+        "体育赛事",
+        "综艺",
+        "动画片",
+        "中国动漫",
+        "日本动漫",
+        "欧美动漫",
+        "伦理片"
+      ]
+    },
     {
       "key": "*大地资源",
       "name": "🏆大地资源",
@@ -149,22 +208,22 @@
       "changeable": 1,
       "categories": [
         "伦理片",
-		"电影片",
-		"连续剧",
-		"综艺片",
-		"动漫片",
-		"动作片",
-		"喜剧片",
-		"爱情片",
-		"科幻片",
-		"恐怖片",
-		"剧情片",
-		"战争片",
-		"国产剧",
-		"香港剧",
-		"韩国剧",
-		"欧美剧",
-		"电影解说"
+        "电影片",
+        "连续剧",
+        "综艺片",
+        "动漫片",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "香港剧",
+        "韩国剧",
+        "欧美剧",
+        "电影解说"
       ]
     },
     {
@@ -191,24 +250,24 @@
         "ratio": 1.33
       }
     },
-	{
-		"key":"番号资源",
-		"name":"🈚番号资源S",
-		"type":1,
-		"api":"http://fhapi9.com/api.php/provide/vod/",
-		"playUrl":"",
-		"categories":[],
-		"quickSearch":0
-	},
-	{
-		"key":"乐播资源",
-		"name":"🈚乐播资源S",
-		"type":1,
-		"api":"https://lbapi9.com/api.php/provide/vod/",
-		"playUrl":"",
-		"categories":[],
-		"quickSearch":0
-	}
+    {
+      "key": "番号资源",
+      "name": "🈚番号资源S",
+      "type": 1,
+      "api": "http://fhapi9.com/api.php/provide/vod/",
+      "playUrl": "",
+      "categories": [],
+      "quickSearch": 0
+    },
+    {
+      "key": "乐播资源",
+      "name": "🈚乐播资源S",
+      "type": 1,
+      "api": "https://lbapi9.com/api.php/provide/vod/",
+      "playUrl": "",
+      "categories": [],
+      "quickSearch": 0
+    }
   ],
   "parses": [
     {
