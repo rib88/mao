@@ -2,53 +2,13 @@
   "wallpaper": "https://tool.teyonds.com/api",
   "lives": [
     {
-      "name": "国产区",
-      "url": "https://ghfast.top/raw.githubusercontent.com/rib88/mao/main/18/gtv.txt",
+      "name": "综合直播",
+      "url": "https://ghfast.top/raw.dgithub.xyz/rib88/mao/main/gz.txt",
       "type": 0,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-	{
-		"name": "国产特区",
-		"type": 0,
-		"url": "https://ghfast.top/raw.githubusercontent.com/rib88/mao/main/18/gc.txt",
-		"ua": "okhttp/3.15",
-		"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-		"logo": "https://epg.112114.xyz/logo/{name}.png"
-	},
-	{
-		"name": "探花网红",
-		"type": 0,
-		"url": "https://ghfast.top/raw.githubusercontent.com/rib88/mao/main/18/gz.txt",
-		"ua": "okhttp/3.15",
-		"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-		"logo": "https://epg.112114.xyz/logo/{name}.png"
-	},
-	{
-		"name": "欧美专区",
-		"type": 0,
-		"url": "https://ghfast.top/raw.githubusercontent.com/rib88/mao/main/18/om.txt",
-		"ua": "okhttp/3.15",
-		"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-		"logo": "https://epg.112114.xyz/logo/{name}.png"
-	},
-	{
-		"name": "日本无码",
-		"type": 0,
-		"url": "https://ghfast.top/raw.githubusercontent.com/rib88/mao/main/18/wm.txt",
-		"ua": "okhttp/3.15",
-		"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-		"logo": "https://epg.112114.xyz/logo/{name}.png"
-	},
-	{
-		"name": "日本有码",
-		"type": 0,
-		"url": "https://ghfast.top/raw.githubusercontent.com/rib88/mao/main/18/ym.txt",
-		"ua": "okhttp/3.15",
-		"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-		"logo": "https://epg.112114.xyz/logo/{name}.png"
-	}
+    }
   ],
   "sites": [
     {
